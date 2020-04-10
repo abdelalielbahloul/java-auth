@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="JavaAuth.jar" size="2544" download="eager" />
+    <jar href="JavaAuth.jar" size="3012" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="javaauth.JavaAuth"  name="JavaAuth" />
   <update check="always"/>
