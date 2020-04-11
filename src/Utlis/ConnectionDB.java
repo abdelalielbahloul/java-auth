@@ -20,6 +20,7 @@ public class ConnectionDB {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             cnx = DriverManager.getConnection("jdbc:mysql://localhost:3306/projet_ismc", "root","");
+            
         } catch (Exception ex) {
             Logger.getLogger(ConnectionDB.class.getName()).log(Level.SEVERE, null, ex);
         }
